@@ -8,7 +8,7 @@ namespace Mango.Services.ProductAPI.DbContexts
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        public DbSet<Products> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
 
     }
 }
